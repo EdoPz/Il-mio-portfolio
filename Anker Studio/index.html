@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anker Studio — Architecture in Nature</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+
+    <!-- Concept badge — subtle, always visible -->
+    <a href="#" class="concept-badge" aria-label="Concept project">Concept</a>
+
+    <!-- NAV -->
+    <nav>
+      <a href="#hero" class="nav-logo">Anker Studio</a>
+      <ul class="nav-links">
+        <li><a href="#filosofia">About</a></li>
+        <li><a href="#progetti">Projects</a></li>
+        <li><a href="#contatti">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+      <img
+        class="hero-bg"
+        src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=2200&q=85&auto=format&fit=crop"
+        alt=""
+        aria-hidden="true"
+        fetchpriority="high"
+      />
+      <div class="hero-overlay"></div>
+      <div class="hero-inner">
+        <h1 class="hero-title">
+          Building<br>
+          where nature<br>
+          <em>decides.</em>
+        </h1>
+        <a href="#progetti" class="cta">View Projects</a>
+      </div>
+      <div class="hero-scroll" aria-hidden="true">
+        <span></span>
+        Scroll
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="filosofia">
+      <div class="filosofia-img reveal">
+        <img
+          src="/src/assets/Image 1.png"
+          alt="Cabin among the trees"
+          loading="lazy"
+        />
+      </div>
+      <div class="filosofia-content reveal">
+        <p class="section-label">Our philosophy</p>
+        <h2 class="section-heading">
+          Let the forest<br>
+          lead the way.
+        </h2>
+        <p>
+          We don't place buildings — we weave them in. Every project
+          begins with weeks of listening to the site: its slopes, the
+          light filtering through the canopy, the path rainwater takes
+          downhill. Only then do we draw the first line.
+        </p>
+        <p>
+          We work with slow-grown timber, local stone, and glass that
+          mirrors the treetops. Large openings blur the boundary between
+          inside and out, bringing the forest into every room.
+        </p>
+        <div class="stats">
+          <div class="stat">
+            <span class="stat-number">18+</span>
+            <span class="stat-label">Years of experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">94</span>
+            <span class="stat-label">Projects completed</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">12</span>
+            <span class="stat-label">International awards</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="progetti">
+      <div class="progetti-header reveal">
+        <div>
+          <p class="section-label">Portfolio</p>
+          <h2 class="section-heading">Selected works</h2>
+        </div>
+        <a href="#" class="link-all">All projects</a>
+      </div>
+
+      <div class="grid-progetti">
+
+        <article class="card reveal">
+          <img
+            src="/src/assets/Gallery Images/Gallery 1.png"
+            alt="Forest Retreat"
+            loading="lazy"
+          />
+          <div class="card-overlay">
+            <p class="card-cat">Residential</p>
+            <p class="card-name">Forest Retreat</p>
+            <p class="card-year">Trentino, 2024</p>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <img
+            src="/src/assets/Gallery Images/Gallery 2.png"
+            alt="Fir Tree House"
+            loading="lazy"
+          />
+          <div class="card-overlay">
+            <p class="card-cat">Residential</p>
+            <p class="card-name">Fir Tree House</p>
+            <p class="card-year">Aosta Valley, 2024</p>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <img
+            src="/src/assets/Gallery Images/Gallery 3.png"
+            alt="Alpine Chalet"
+            loading="lazy"
+          />
+          <div class="card-overlay">
+            <p class="card-cat">Residential</p>
+            <p class="card-name">Alpine Chalet</p>
+            <p class="card-year">Dolomites, 2023</p>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <img
+            src="/src/assets/Gallery Images/Gallery 4.png"
+            alt="Woodland Villa"
+            loading="lazy"
+          />
+          <div class="card-overlay">
+            <p class="card-cat">Residential</p>
+            <p class="card-name">Woodland Villa</p>
+            <p class="card-year">Friuli, 2023</p>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <img
+            src="/src/assets/Gallery Images/Gallery 5.png"
+            alt="Forest Pavilion"
+            loading="lazy"
+          />
+          <div class="card-overlay">
+            <p class="card-cat">Public</p>
+            <p class="card-name">Forest Pavilion</p>
+            <p class="card-year">Umbria, 2022</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- QUOTE BANNER -->
+    <div class="forest-banner">
+      <img
+        src="/src/assets/Final Image.png"
+        alt=""
+        aria-hidden="true"
+        loading="lazy"
+      />
+      <div class="forest-banner-text reveal">
+        <blockquote>
+          "Architecture is the magnificent<br>
+          play of forms assembled<br>
+          <em>in the light."</em>
+        </blockquote>
+        <cite>— Le Corbusier</cite>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <section id="contatti">
+      <div class="contatti-left reveal">
+        <p class="section-label">Work with us</p>
+        <h2 class="section-heading">
+          Tell us about<br>your project.
+        </h2>
+        <p class="contatti-desc">
+          Every great building begins with a conversation.
+          Write to us and we'll get back to you within 48 hours.
+        </p>
+        <address class="contatti-info">
+          <div class="info-item">
+            <span class="info-label">Email</span>
+            <span class="info-value">hello@ankerstudio.com</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Studio</span>
+            <span class="info-value">Via dei Servi 14, Florence</span>
+          </div>
+        </address>
+      </div>
+
+      <form class="contatti-form reveal" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="nome">Name</label>
+            <input class="form-control" id="nome" type="text" placeholder="Marco Rossi" autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email">Email</label>
+            <input class="form-control" id="email" type="email" placeholder="marco@email.com" autocomplete="email" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="tipo">Project type</label>
+          <input class="form-control" id="tipo" type="text" placeholder="Residential, retreat, pavilion…" />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="messaggio">Message</label>
+          <textarea class="form-control" id="messaggio" rows="4" placeholder="Tell us briefly about your idea or vision…"></textarea>
+        </div>
+        <button type="submit" class="cta">Send message</button>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-logo">Anker Studio</span>
+          <p class="footer-tagline">
+            Architecture rooted in nature.<br>
+            Founded in Florence, 2006.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <p class="footer-col-title">Navigation</p>
+          <ul>
+            <li><a href="#filosofia">About</a></li>
+            <li><a href="#progetti">Projects</a></li>
+            <li><a href="#contatti">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <p class="footer-col-title">Services</p>
+          <ul>
+            <li><a href="#">Residential Design</a></li>
+            <li><a href="#">Forest Retreats</a></li>
+            <li><a href="#">Public Pavilions</a></li>
+            <li><a href="#">Interior Spaces</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <p class="footer-col-title">Contact</p>
+          <ul>
+            <li><a href="#">hello@ankerstudio.com</a></li>
+            <li><a href="#">Via dei Servi 14, Florence</a></li>
+            <li><a href="#">Open Mon–Fri, 9–18</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <p class="footer-col-title">Follow</p>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Behance</a></li>
+            <li><a href="#">Dezeen</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span class="footer-copy">© 2026 Anker Studio — All rights reserved</span>
+        <span class="footer-awards">
+          Archdaily Building of the Year 2023 &nbsp;·&nbsp;
+          RIBA Award 2022 &nbsp;·&nbsp;
+          Dezeen Award 2021
+        </span>
+      </div>
+    </footer>
+
+  </body>
+</html>
