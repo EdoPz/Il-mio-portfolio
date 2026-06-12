@@ -652,6 +652,22 @@ footer {
   letter-spacing: 0.04em;
 }
 
+.footer-credit {
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  font-weight: 300;
+  color: rgba(254, 250, 224, 0.22);
+}
+
+.footer-credit a {
+  color: rgba(254, 250, 224, 0.45);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.25s;
+}
+
+.footer-credit a:hover { color: var(--cornsilk); }
+
 @media (max-width: 960px) {
   .footer-top {
     grid-template-columns: 1fr 1fr;
